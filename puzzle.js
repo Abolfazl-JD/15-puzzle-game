@@ -30,6 +30,7 @@ function createSolvedPuzzle() {
 }
 
 createSolvedPuzzle()
+scramble()
 
 function movePiece(puzzlePiece) {
     const emptyPiece = getEmptyPiece(puzzlePiece)
